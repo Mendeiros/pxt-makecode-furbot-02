@@ -72,6 +72,8 @@ function andando() {
                     andando()
                 } else {
                     basic.showIcon(IconNames.Angry)
+                    basic.pause(1000)
+                    basic.clearScreen()
                 }
                 
             })

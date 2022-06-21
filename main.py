@@ -79,5 +79,7 @@ def on_data_received():
 
     else:
         basic.show_icon(IconNames.ANGRY)
+        basic.pause(1000)
+        basic.clear_screen()
 
 andando()
